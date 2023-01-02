@@ -1,8 +1,8 @@
 # Docker Builds
 
-If you've never used Docker before, check out the [getting started guide.](https://docs.docker.com/get-started/)
+If you have never used Docker before, check out the [getting started guide](https://docs.docker.com/get-started/)
 
-Up-to-date prebuilt images can be found [on Docker hub.](https://hub.docker.com/repository/docker/animcogn/face_recognition)
+Up-To-Date prebuilt images can be found [on Docker hub](https://hub.docker.com/repository/docker/animcogn/face_recognition)
 
 ## CPU Images
 
