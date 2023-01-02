@@ -331,3 +331,5 @@ class Test_face_recognition(unittest.TestCase):
         result = runner.invoke(face_detection_cli.main, args=[image_file, "--model", "cnn"])
         self.assertEqual(result.exit_code, 0)
         self.assertTrue(target_string in result.output)
+
+        
