@@ -1,6 +1,5 @@
 # Face Recognition
 
-_You can also read a translated version of this file [in Chinese 简体中文版](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean 한국어](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese 日本語](https://github.com/m-i-k-i/face_recognition/blob/master/README_Japanese.md)._
 
 Recognize and manipulate faces from Python or from the command line with
 the world's simplest face recognition library.
@@ -64,12 +63,6 @@ unknown_encoding = face_recognition.face_encodings(unknown_image)[0]
 
 results = face_recognition.compare_faces([biden_encoding], unknown_encoding)
 ```
-
-You can even use this library with other Python libraries to do real-time face recognition:
-
-![](https://cloud.githubusercontent.com/assets/896692/24430398/36f0e3f0-13cb-11e7-8258-4d0c9ce1e419.gif)
-
-See [this example](https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py) for the code.
 
 ## Online Demos
 
