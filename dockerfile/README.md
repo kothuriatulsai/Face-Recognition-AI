@@ -2,8 +2,6 @@
 
 If you have never used Docker before, check out the [getting started guide](https://docs.docker.com/get-started/)
 
-Up-To-Date prebuilt images can be found [on Docker hub](https://hub.docker.com/repository/docker/animcogn/face_recognition)
-
 ## CPU Images
 
 -	[`cpu-latest`, `cpu`, `cpu-0.1`, `latest`](cpu/Dockerfile)
@@ -44,7 +42,7 @@ The Jupyter images are built to be deployed on [Kubeflow](https://www.kubeflow.o
 Here's an example Dockerfile using the prebuilt images:
 
 ```Dockerfile
-FROM animcogn/face_recognition:gpu
+FROM kothuriatulsai/face_recognition:gpu
 
 COPY requirements.txt requirements.txt
 
