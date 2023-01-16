@@ -298,5 +298,5 @@ using it to a cloud hosting provider like Heroku or AWS.
 
 You can try the Docker image locally by running: `docker-compose up --build`
 
-There are also [several prebuilt Docker images.](docker/README.md)
+There are also [several prebuilt Docker images.](https://github.com/kothuriatulsai/Face-Recognition-AI/blob/main/dockerfile/README.md)
 
