@@ -37,18 +37,3 @@ print(dlib.cuda.get_num_devices())
 
 The Jupyter images are built to be deployed on [Kubeflow](https://www.kubeflow.org/). However, if you just want to run a normal Jupyter instance, they're a great template to build your own.
 
-## Example Dockerfile
-
-Here's an example Dockerfile using the prebuilt images:
-
-```Dockerfile
-FROM kothuriatulsai/face_recognition:gpu
-
-COPY requirements.txt requirements.txt
-
-RUN pip3 install -r ./requirements.txt
-
-COPY my_app /my_app
-
-CMD [ "python3", "/my_app/my_app.py" ]
-```
